@@ -1,6 +1,6 @@
 {
-  "name": "alexa-facts",
-  "description": "Example Amazon Alexa skill built with the Amazon Alexa Skills SDK.",
+  "name": "mimedicina",
+  "description": "Preguntale a Alexa qué medicina te toca.",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
