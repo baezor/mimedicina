@@ -44,7 +44,8 @@ function nextMedicine(medicine){
     myNextMedicines.push(medicine)
 }
 function generateSpeech(){
-    const response = 'Tu siguiente medicina es: ' + myNextMedicines[0].name + '. Dosis: ' + myNextMedicines[0].dose + '. Y por último: ' + myNextMedicines[1].name + '. Dosis: ' + myNextMedicines[1].dose + '.'
+    const response = '¡Hola!'
+    //const response = 'Tu siguiente medicina es: ' + myNextMedicines[0].name + '. Dosis: ' + myNextMedicines[0].dose + '. Y por último: ' + myNextMedicines[1].name + '. Dosis: ' + myNextMedicines[1].dose + '.'
     this.emit(':tellWithCard', response, SKILL_NAME, response);
 }
 
